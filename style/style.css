@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+
+.full-height {
+    height: calc(100% - 20px);
+}
+
+.sidebar {
+    background: #EEE;
+    height: 100%;
+}
+
+#panel-map {
+    height: 60%;
+}
+
+#panel-vis {
+    margin-top: 2%;
+    height: 38%;
+}
+
+/* #panel-opts {
+  height: 35%;
+} */
+
+#panel-donuts {
+  margin-top: 4%
+}
+
+#panel-sidebar {
+    height: 100%;
+}
+
+#matrix-chart {
+  /* height: 600px; */
+  width: 100%;
+  overflow: auto;
+}
+#dountCharts {
+  /* height: 400px; */
+  overflow: scroll;
+}
+
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+  /*cursor: pointer;*/
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+/*
+.node {
+ cursor: pointer;
+}*/
+
+.donut circle {
+  cursor: pointer;
+}
+
+/* #barCharts-js {
+  width: 100%;
+  height: 500px;
+} */
