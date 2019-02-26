@@ -234,34 +234,39 @@
           <h4 class="ui horizontal divider header">Variables</h4>
 
           <!-- Variables  -->
-          <div class="ui top attached tabular menu">
+          <!-- <div class="ui top attached tabular menu">
             <a class="item active" data-tab="first">First</a>
             <a class="item" data-tab="second">Second</a>
             <a class="item" data-tab="third">Third</a>
-          </div>
-          <div class="ui bottom attached tab segment active" data-tab="first">
+          </div> -->
+          <div>
             <div class="ui fluid card">
-              <div class="content">
+              <!-- <div class="content"> -->
                 <!-- <div class="header">Project Timeline</div> -->
-                <div class="ui dropdown" id="dropdown-uncertainty-value">
+                <!-- <div class="ui dropdown" id="dropdown-uncertainty-value">
                   <div class="text">Select</div>
                   <i class="dropdown icon"></i>
                   <div class="menu">
                     <div class="item" data-value="1">Value</div>
                     <div class="item" data-value="0">Uncertainty</div>
                   </div>
-                </div>
+                </div> -->
 
-                <div class="ui right floated icon buttons">
+                <!-- <div class="ui right floated icon buttons">
                   <button class="ui button"><i class="filter icon"></i></button>
                   <button class="ui button" onclick="sortDown()"><i class="sort amount down icon"></i></button>
                   <button class="ui button" onclick="sortUp()"><i class="sort amount up icon"></i></button>
-                </div>
+                </div> -->
 
-              </div>
+              <!-- </div> -->
 
               <div class="content" id="dountCharts">
                 <h4 class="ui sub header">Uncertainty</h4>
+                <div class="ui right floated icon buttons">
+                  <!-- <button class="ui button"><i class="filter icon"></i></button> -->
+                  <button class="ui button" onclick="sortDown()"><i class="sort amount down icon"></i></button>
+                  <button class="ui button" onclick="sortUp()"><i class="sort amount up icon"></i></button>
+                </div>
                 <!-- open files -->
                 <div class="ui center aligned" id="openFile">
                   <input type="file" id="fileupload" style="display:none" onchange="uploadFiles()" />
@@ -279,12 +284,12 @@
               </div>
             </div>
           </div>
-          <div class="ui bottom attached tab segment" data-tab="second">
+          <!-- <div class="ui bottom attached tab segment" data-tab="second">
           </div>
 
           <div class="ui bottom attached tab segment" data-tab="third">
             Third
-          </div>
+          </div> -->
         </div>
 
 
