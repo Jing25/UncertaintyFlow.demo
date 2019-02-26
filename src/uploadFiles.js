@@ -1,10 +1,10 @@
 //Initialization
-function uploadFiles() {
-  var x = document.getElementById("fileupload");
-  filename = "Data/" + x.files[0].name;
-  $("#openFile").hide()
+function uploadFiles(filename) {
+  var file = filename || document.getElementById("fileupload").file[0].name;
+  // var filename = file || "Data/myData_test03.csv";
+  //$("#openFile").hide()
 
-  d3.csv(filename, function(data) {
+  d3.csv(file, function(data) {
     //get data
     myData = data;
     //console.log(data);

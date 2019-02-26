@@ -3,7 +3,8 @@ $('#OpenFileUpload').click(function() {
   $('#fileupload').trigger('click');
 });
 
-
+uploadFiles('Data/myData_test03.csv');
+$('#OpenFileUpload').hide();
 $('#classifyButton').click(function() {
   $("#classifyDialog").dialog();
 });
