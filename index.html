@@ -231,7 +231,7 @@
 
         <div class="centent" id="panel-donuts">
           <!-- Variables Uncertainty Visualization-->
-          <h4 class="ui horizontal divider header">Variables</h4>
+          <h4 class="ui horizontal divider header">Uncertainty by Variable</h4>
 
           <!-- Variables  -->
           <!-- <div class="ui top attached tabular menu">
@@ -261,7 +261,7 @@
               <!-- </div> -->
 
               <div class="content" id="dountCharts">
-                <h4 class="ui sub header">Uncertainty</h4>
+                <!-- <h4 class="ui sub header">Uncertainty</h4> -->
                 <div class="ui right floated icon buttons">
                   <!-- <button class="ui button"><i class="filter icon"></i></button> -->
                   <button class="ui button" onclick="sortDown()"><i class="sort amount down icon"></i></button>
@@ -279,9 +279,9 @@
                 <h4 class="ui sub header">Model comparison</h4>
                 <div id="barCharts-js"></div>
               </div>
-              <div class="extra content">
+              <!-- <div class="extra content">
                 <button class="ui button">Join Project</button>
-              </div>
+              </div> -->
             </div>
           </div>
           <!-- <div class="ui bottom attached tab segment" data-tab="second">
@@ -324,8 +324,10 @@
         </div>
 
         <button class="ui right floated icon button" id="highlight_P" data-value=1><i class="bullseye icon"></i></button>
+        <h4 class="ui horizontal divider header">Uncertainty by Station</h4>
 
         <div class="ui fluid card">
+
           <div id="matrix-chart">
           </div>
         </div>
